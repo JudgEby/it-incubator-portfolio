@@ -1,0 +1,26 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #92d3f6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+
+}
+
+.text {
+    margin: 20px 0;
+    width: 350px;
+    background-color: #eaeaea;
+}
+
+.photo {
+    margin: 10px 0;
+    width: 300px;
+    height: 400px;
+    background-color: #eaeaea;
+}
