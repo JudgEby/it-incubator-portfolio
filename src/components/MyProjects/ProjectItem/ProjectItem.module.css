@@ -1,0 +1,35 @@
+.project {
+    margin-bottom: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e1e1e1;
+}
+
+.previewImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #c7c7c7;
+}
+
+.previewImage a {
+    padding: 5px 15px;
+    color: black;
+    background-color: #9a9a9a;
+    text-decoration: none;
+}
+
+.textField {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 10px 0;
+    font-weight: bold;
+}
