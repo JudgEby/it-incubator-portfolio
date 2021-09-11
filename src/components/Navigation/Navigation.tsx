@@ -5,16 +5,16 @@ const Navigation = () => {
   return (
     <header className={styles.nav}>
       <a className={styles.link} href=''>
-        Главная
+        Main
       </a>
       <a className={styles.link} href=''>
-        Скиллы
+        Skills
       </a>
       <a className={styles.link} href=''>
-        Работы
+        Projects
       </a>
       <a className={styles.link} href=''>
-        Контакты
+        Contacts
       </a>
     </header>
   )

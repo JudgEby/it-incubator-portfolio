@@ -11,6 +11,8 @@ const MyProjects = () => {
         <div className={styles.projects}>
           <ProjectItem />
           <ProjectItem />
+          <ProjectItem />
+          <ProjectItem />
         </div>
       </div>
     </div>

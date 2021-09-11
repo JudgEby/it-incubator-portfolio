@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7577fb8e-5731-4099-8512-2bbff5cbf055" name="Changes" comment="draft markup fix footer social icons">
-      <change afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyProjects/ProjectItem/ProjectItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyProjects/ProjectItem/ProjectItem.tsx" afterDir="false" />
+    <list default="true" id="7577fb8e-5731-4099-8512-2bbff5cbf055" name="Changes" comment="add MyProjects section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MyProjects/MyProjects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/Skills.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
@@ -64,6 +68,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -74,6 +88,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -88,7 +107,8 @@
       <updated>1627738534196</updated>
       <workItem from="1627738535316" duration="7303000" />
       <workItem from="1627978218207" duration="18932000" />
-      <workItem from="1628063835789" duration="5357000" />
+      <workItem from="1628063835789" duration="6055000" />
+      <workItem from="1631360857255" duration="7236000" />
     </task>
     <task id="LOCAL-00001" summary="draft markup">
       <created>1628003039597</created>
@@ -104,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628003440553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add MyProjects section">
+      <created>1628072373254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628072373254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +153,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="draft markup" />
     <MESSAGE value="draft markup fix footer social icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="draft markup fix footer social icons" />
+    <MESSAGE value="add MyProjects section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add MyProjects section" />
   </component>
 </project>

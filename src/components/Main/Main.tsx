@@ -7,11 +7,11 @@ const Main = () => {
     <main className={styles.mainBlock}>
       <div className={`${styleContainer.container} ${styles.container}`}>
         <div className={styles.text}>
-          <span>Hi There</span>
-          <h1>
+          <span className={styles.hi}>Hi There</span>
+          <h1 className={styles.name}>
             I am <span>Yan Dobrovolskiy</span>
           </h1>
-          <p>ReactJS Frontend Developer</p>
+          <p className={styles.description}>ReactJS Frontend Developer</p>
         </div>
         <div className={styles.photo}>Ava</div>
       </div>

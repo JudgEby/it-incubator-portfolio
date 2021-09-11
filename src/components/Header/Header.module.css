@@ -1,7 +1,10 @@
 .header {
 
-    background-color: aquamarine;
+    background-color: #222222;
+
 }
+
+
 
 .container {
     display: flex;

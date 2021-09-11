@@ -20,3 +20,9 @@
     justify-content: space-between;
     width: 100%;
 }
+
+@media screen and (max-width: 644px) {
+    .projects {
+        justify-content: center;
+    }
+}

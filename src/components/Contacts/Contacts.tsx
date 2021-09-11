@@ -6,7 +6,7 @@ const Contacts = () => {
     <div className={styles.contacts}>
       <div className={styles.container}>
         <h3>Контакты</h3>
-        <form className={styles.form} action=''>
+        <form className={styles.form}>
           <input type='text' />
           <input type='text' />
           <textarea name='' id='' cols={30} rows={10} />
